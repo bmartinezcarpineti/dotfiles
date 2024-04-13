@@ -1,0 +1,111 @@
+* {
+    font-family: 'DroidSansM Nerd Font';
+    font-weight: 700;
+    font-size: 14px;
+    /*letter-spacing: 1px;*/
+    color: #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  /* Set background color of main waybar window */
+  window#waybar {
+    /*background: rgba(21, 22, 80, 0);*/
+    background: #1e1c1c;
+  }
+  
+  /* Set background color of tooltips 
+  tooltip {
+    background: #1e1e2e;
+  }*/
+  
+  #workspaces,
+  #clock {
+    border-radius: 10px;
+  }
+  
+  #workspaces {
+    margin-right: 4px;
+  }
+  
+  /* Set workspace text color and padding */
+  #workspaces button {
+    padding: 0 10px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 2px;
+  }
+  
+  /* Sets active workspace to have a solid line on the bottom */
+  #workspaces button.active {
+    border-bottom: 2px solid #d3d3d3;
+    border-radius: 0;
+    margin-bottom: 2px;
+  }
+  
+  /* Sets background, padding, margins, and borders for (all) modules */
+  #custom-power,
+  #custom-arch,
+  #workspaces,
+  #clock,
+  #network,
+  #battery,
+  #window,
+  #temperature,
+  #cpu,
+  #memory,
+  #backlight,
+  #pulseaudio,
+  #tray,
+  #mpd {
+    /*background: rgba(38, 44, 57, 0.7);*/
+    padding: 0 10px;
+    border: 0;
+  }
+  
+  /* Set up rounding to make these modules look like separate pills */
+  #tray,
+  #window {
+    border-radius: 10px;
+  }
+  
+  /* Rounding only on left of module */
+  #pulseaudio {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  /* Rounding only on right of module(s) */
+  #battery { 
+    color: #3cca04;
+    border-radius: 0 15px 15px 0;
+  }
+  
+  #cpu {
+    color: #E3A7C0;
+  }
+  
+  #backlight {
+    color: #d3d3d3;
+  }
+  
+  #network {
+    color: #d3d3d3;
+  }
+  
+  #pulseaudio {
+    color: #d3d3d3;
+  }
+  
+  #battery.critical {
+    color: #ec1717;
+    /*background: #ec1717;*/
+  }
+  
+  #custom-power {
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  
+  #custom-arch {
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+  

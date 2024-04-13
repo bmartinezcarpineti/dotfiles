@@ -1,0 +1,63 @@
+ignore-empty-password
+font="DroidSansM Nerd Font"
+
+clock
+timestr=%R
+datestr=%a, %e %b %Y
+
+# Add an image as a background 
+image=~/wallpapers/ciudad.png
+
+# Fade in time
+fade-in=1
+
+# Effect for background
+effect-blur=5x2
+# effect-greyscale
+# effect-pixelate=5
+
+# Show/Hide indicator circle
+indicator
+
+# smaller indicator
+indicator-radius=150
+
+# bigger indicator
+# indicator-radius=300
+
+indicator-thickness=5
+indicator-caps-lock
+
+# Define all colors
+
+key-hl-color=5B5B5B
+separator-color=00000000
+
+inside-color=1e1c1cbb
+inside-clear-color=1e1c1cbb
+inside-caps-lock-color=1e1c1cbb
+inside-ver-color=1e1c1cbb
+inside-wrong-color=FF6464bb
+
+ring-color=D0D0D0
+ring-clear-color=D0D0D0
+ring-caps-lock-color=D0D0D0
+ring-ver-color=D0D0D0
+ring-wrong-color=D0D0D0
+
+line-color=00000000
+line-clear-color=ffffffFF
+line-caps-lock-color=ffffffFF
+line-ver-color=ffffffFF
+line-wrong-color=ffffffFF
+
+text-color=ffffff
+text-clear-color=ffffff
+text-ver-color=ffffff
+text-wrong-color=ffffff
+
+bs-hl-color=ffffff
+caps-lock-key-hl-color=ffffffFF
+caps-lock-bs-hl-color=ffffffFF
+disable-caps-lock-text
+text-caps-lock-color=ffffff
